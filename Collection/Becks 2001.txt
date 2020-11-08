@@ -1,0 +1,12 @@
+Task-models are user-centered representations of goals and actions a
+user needs to perform in the context of information processing. They help to
+characterize tasks which might be fruitfully supported by current or future systems
+and therefore are promising aids for a deeper understanding of user activities
+in certain application domains. This paper presents a taxonomy for document
+analysis tasks which are relevant in particular in knowledge management
+and can potentially be aided by visual text-access technology. The task-model is
+developed in three steps: Selected domain-independent task-models from literature
+are condensed to form a theoretical basis for the development of a specialized
+model. Case studies concerned with different document analysis tasks as
+well as results of a survey in knowledge-intensive industries complete and optimize
+the specialized task-model for document analysis in knowledge management.

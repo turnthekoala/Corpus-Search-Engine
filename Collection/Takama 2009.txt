@@ -1,0 +1,30 @@
+Visualization Cube: Modeling Interaction for
+Exploratory Data Analysis of Spatiotemporal Trend Information
+Yasufumi Takama Takashi Yamada
+Graduate School of System Design, Tokyo Metropolitan University
+ytakama@sd.tmu.ac.jp
+Abstract
+This paper proposes the visualization cube for modeling
+interaction in exploratory analysis of spatiotemporal
+trend information. Recent growth of the Web has
+brought us various type of information, among which
+trend information is one of the important information,
+because it is crucial for our decision making. Although
+interactive information visualization system is useful
+for supporting exploratory data analysis of trend information,
+the design of such systems tends to depend
+on the idea of each designer. It is expected that establishing
+adequate interaction model will contribute to
+the design of those systems. The visualization cube
+defines the abstract data structure of spatiotemporal
+trend information, which consists of 4 axes: spatial,
+temporal, statistics-value, and type-of-views axes. Interactions
+for generating views for analytic purpose
+are defined as the operations on it. Based on the interaction
+model, the prototype system is developed and
+used in actual classes of an elementary school, of
+which the result shows the system has enough usability
+for 5th-grade elementary school students to perform
+exploratory data analysis. It is expected the visualization
+cube contributes to the design of interactive information
+visualization systems.

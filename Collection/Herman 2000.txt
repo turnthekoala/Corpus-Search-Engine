@@ -1,0 +1,81 @@
+Graph Visualization and Navigation in Information
+Visualization: a Survey
+Ivan Herman, Member, IEEE CS Society, Guy Melançon, and M. Scott Marshall
+Abstract—This is a survey on graph visualization and navigation techniques, as used in information visualization. Graphs appear in
+numerous applications such as web browsing, state–transition diagrams, and data structures. The ability to visualize and to
+navigate in these potentially large, abstract graphs is often a crucial part of an application. Information visualization has specific
+requirements, which means that this survey approaches the results of traditional graph drawing from a different perspective.
+Index Terms—Information visualization, graph visualization, graph drawing, navigation, focus+context, fish–eye, clustering.
+1 Introduction
+lthough the visualization of graphs is the subject of this
+survey, it is not about graph drawing in general.
+Excellent bibliographic surveys[4],[34], books[5], or even
+on–line tutorials[26] exist for graph drawing. Instead, the
+handling of graphs is considered with respect to information
+visualization.
+Information visualization has become a large field and
+“sub–fields” are beginning to emerge (see for example Card
+et al.[16] for a recent collection of papers from the last
+decade). A simple way to determine the applicability of graph
+visualization is to consider the following question: is there an
+inherent relation among the data elements to be visualized?
+If the answer to the question is “no”, than data elements are
+“unstructured” and the goal of the information visualization
+system might be to help discover relations among data
+through visual means. If, however, the answer to the question
+is “yes”, then the data can be represented by the nodes of a
+graph, with the edges representing the relations.
+Information visualization research dealing with
+unstructured data has a distinct flavour. However, such
+research is not the subject of this survey. Instead, our
+discussion focuses on representations of structured data, i.e.,
+where graphs are the fundamental structural representation
+of the data. Information visualization has specific
+requirements, which means that we will approach the results
+of traditional graph drawing from a different perspective than
+the other surveys.
+1.1 Typical Application Areas
+Graph visualization has many areas of application. Most
+people have encountered a file hierarchy on a computer
+system. A file hierarchy can be represented as a tree (a special
+type of graph). It is often necessary to navigate through the
+file hierarchy in order to find a particular file. Anyone who
+has done this has probably experienced a few of the problems
+involved in graph visualization: “Where am I?” “Where is the
+file that I'm looking for?” Other familiar types of graphs
+include the hierarchy illustrated in an organisational chart and
+taxonomies that portray the relations between species. Web
+site maps are another application of graphs as well as
+browsing history. In biology and chemistry, graphs are
+applied to evolutionary trees, phylogenetic trees, molecular
+maps, genetic maps, biochemical pathways, and protein
+functions. Other areas of application include object–oriented
+systems (class browsers), data structures (compiler data
+structures in particular), real–time systems (state–transition
+diagrams, Petri nets), data flow diagrams, subroutine–call
+graphs, entity relationship diagrams (e.g. UML and database
+structures), semantic networks and knowledge–representation
+diagrams, project management (PERT diagrams), logic
+programming (SLD–trees), VLSI (circuit schematics), virtual
+reality (scene graphs), and document management systems.
+Note that the information isn’t always guaranteed to be in a
+purely hierarchical format — this necessitates techniques
+which can deal with more general graphs than trees.
+1.2 Key Issues in Graph Visualisation
+The size of the graph to view is a key issue in graph
+visualization. Large graphs pose several difficult problems. If
+the number of elements is large it can compromise
+performance or even reach the limits of the viewing platform.
+Even if it is possible to layout and display all the elements,
+the issue of viewability or usability arises, because it will
+become impossible to discern between nodes and edges (see
+Figure 1, although this tree is by no means a very complex
+one). In fact, usability becomes an issue even before the
+problem of discernability is reached. It is well known that
+comprehension and detailed analysis of data in graph
+structures is easiest when the size of the displayed graph is
+small. In general, displaying an entire large graph may give an
+indication of the overall structure or a location within it but
+makes it difficult to comprehend. These issues form the
+context for most of this survey.
+A

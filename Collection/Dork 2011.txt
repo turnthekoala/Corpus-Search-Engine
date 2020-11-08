@@ -1,0 +1,14 @@
+Abstract
+In this work, we describe how EdgeMaps provide a new method for integrating the visualization of explicit and
+implicit data relations. Explicit relations are specific connections between entities already present in a given
+data set, while implicit relations are derived from multidimensional data based on similarity measures. Many
+data sets include both types of relations, which are often difficult to represent together in information visualizations.
+Node-link diagrams typically focus on explicit data connections while not incorporating implicit
+similarities between entities. Multidimensional scaling considers similarities between items; however, explicit
+links between nodes are not displayed. In contrast, EdgeMaps visualize both explicit and implicit relations
+by combining graph drawing and spatialization techniques. We have applied this technique to three case
+studies (philosophers, painters, and musicians) and explored how integrated visualizations of explicit and
+implicit relations reveal novel patterns and relationships.
+Keywords
+information visualization, explicit and implicit relationships, graph drawing, dimensionality reduction, aesthetics,
+design, www

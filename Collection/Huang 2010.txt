@@ -1,0 +1,96 @@
+A Pool of Topics: Interactive Relational Topic
+Visualization for Information Discovery
+Inessa Seifert and Michael Kruppa
+German Research Center for Artificial Intelligence (DFKI GmbH),
+Alt-Moabit 91c, Berlin, 10559, Germany
+inessa.seifert@dfki.de, michael.kruppa@dfki.de
+http://www.dfki.de
+Abstract. In this paper, we present a novel relational visualization that supports
+people at information discovery tasks in digital libraries. This visualization
+displays search query results structured into topics and highlights the
+intersections between them. The proposed visual representation introduces
+interactive drag-and-drop operations for manipulation of the generated topics.
+These operations mirror the human online searching strategies that involve
+boolean AND, OR, and NOT operators. In doing so, the information seeker can
+refine (or relax) a search query in an interactive way during a focusing or a
+defocusing phase. The intersections of topics are made explicitly visible to
+enable the information seeker to avoid frustrating “no hits” situations.
+Keywords: information visualization, boolean operators, information
+discovery, online search strategies.
+1 Introduction
+Modern digital libraries provide a seamless access to a vast amount of scientific
+literature. The amount of information available on the Internet has tremendously
+increased over the past years. Retrieving an article of a known title (or an author) is
+sufficiently fast and easy today. However, finding appropriate literature on a topic the
+information seeker is not familiar with is a time consuming task. During information
+seeking and discovery tasks, the lack of domain specific knowledge leads to
+underdetermined and unclear search goals that are reflected in the definition of vague
+search queries. Such search queries contribute to a huge number of resulting hits.
+Examining a great amount of scientific literature is a time consuming endeavor.
+Therefore, such vaguely defined queries are usually followed by a more focused
+formulation of different search terms combined with boolean AND, OR, and NOT
+operators. Yet, too many, or too specific search terms often deliver no results1. In such
+situations, people try to broaden their search goals by returning to less specified
+queries. The information seeking process encompasses series of focusing phases that
+1 up to 30-50% of queries containing boolean operators together with precisely defined search
+terms deliver no results [1,2]
+M.L. Huang et al. (eds.), Visual Information Communication, 195
+DOI 10.1007/978-1-4419-0312-9_13, © Springer Science+Business Media, LLC 2010
+are followed by defocusing phases, in which people examine the retrieved hits, learn
+more about the topic, and continuously change their attitude toward the search goals.
+In this paper, we present a novel relational visualization approach that displays
+query results structured into topics and highlights the intersections between them. The
+proposed visual representation introduces interactive drag-and-drop operations for
+manipulation of the generated topics. These operations mirror the logical AND, OR,
+and NOT operators that enable the information seeker to refine (or relax) the search
+queries during a search session. The intersections of topics are made explicitly visible
+to enable the information seeker to avoid frustrating “no hits” situations.
+2 Information Seeking
+Information seeking is a complex and cognitively demanding task that has a close
+relation to learning and problem solving [3].
+Fig. 1. Information seeking process
+The information seeker starts with an initial concept of the search goal (Fig. 1, step
+1) that is derived from the prior knowledge about the problem domain and defines an
+initial search query (Fig. 1, step 2). Based on the new knowledge acquired from the
+analysis of the query results (Fig. 1, step 3), people think of new concepts, revise their
+search goals, and formulate new queries. The search goals as well as criteria for
+assessing the relevance of articles from the query results (Fig. 1, steps 4 and 5) evolve
+during the information seeking process and cannot be specified in advance [4].
+Having no specific well-defined goal and also no specific criteria for determining the
+solution quality, information seeking is regarded as an ill-structured problem [5]. The
+information seeking process terminates as soon as a user finds appropriate articles or
+decides to interrupt the search.
+Looking at the information seeking process from the problem solving point of
+view, we have to identify the dimensions of the problem domain, possible actions that
+196 I. Seifert and M. Kruppa
+people can perform during the search to reach a new problem solving state, as well as
+search strategies that help people to reduce the amount of information they have to
+process.
+2.1 Dimensions
+A scientific article is characterized by the meta-data that makes it unique: title,
+author(s), editor(s), year, publishing source (e.g., the name of the journal, or
+conference proceedings, volume, issuer), abstract, and its text. Some digital libraries
+(e.g., ACM2, CiteSeer3) provide further information such as keywords, categories, and
+links to the referenced articles.
+In the following, we will discuss possible search paths resulting from the
+information choices accessible to the information seeker.
+Each article is distinguished by a title, a short description (i.e., abstract), and its
+text. These attributes can contain specific words that trigger the formulation of refined
+search queries. Author names are usually augmented with contact information, such
+as e-mail and author’s affiliation, i.e., name and address of an institution. Familiarity
+with the work of a specific author as well as the reputation of a scientific institution
+are important factors that can guide the information seeker to the publications of a
+particular author, groups of scientists, or research institutions [6,7]. A year is derived
+from the publishing date of an article in a scientific journal or a conference
+proceeding that represents a source. Examining articles that belong to a particular
+conference proceeding or a journal is another path that can be taken by the
+information seeker to continue the search. Referenced articles can provide even more
+hints about where further information about specific topics can be found.
+The variety of the illustrated possibilities to follow different search paths leads to a
+vast growth of the search space. To reduce the amount of information to be processed
+and to facilitate the search, publications contained in a digital library are structured
+into different categories and augmented with key words.
+Categories are traditionally maintained by librarians who are responsible for the
+creation and preparation of literature catalogs. Modern data mining and clustering
+methods automatically structure query results into different clusters and accordingly
+label them with frequently occurring terms, i.e., topics [8].

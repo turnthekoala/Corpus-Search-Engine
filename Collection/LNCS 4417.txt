@@ -1,0 +1,26 @@
+Introduction to Human-Centered
+Visualization Environments
+Andreas Kerren, Achim Ebert, and J¨org Meyer
+The title of this book—Human-Centered Visualization Environments (HCVE)—
+is composed of two key components: “human-centered” and “visualization environments”.
+While the first part refers to the research area of Human-Computer
+Interaction (HCI), the second one refers to the design of Visualization systems.
+Thus, the focus of this textbook is on the intersection of both fields. These two
+terms can be defined as follows:
+Visualization can be defined as: “The use of computer-supported, interactive,
+visual representation of abstract data to amplify cognition.” [145]. The aim
+of visualization is to aid people in understanding and analyzing data. While
+other subfields, such as Scientific Visualization (SciVis), involve the presentation
+of data that has some physical or geometric correspondence, Information
+Visualization (InfoVis) centers on abstract information without such
+correspondences, i.e., usually it is not possible to map this information into
+the physical world. In this textbook, the focus is mainly on InfoVis.
+Human-Computer Interaction is “the study of interaction between people (users)
+and computers. It is an interdisciplinary subject, relating computer science
+with many other fields of study and research. Interaction between users
+and computers occurs at the user interface (or simply interface), which includes
+both software and hardware, for example, general purpose computer
+peripherals and large-scale mechanical systems such as aircraft and power
+plants.” [895]. The aim of HCI research is to improve the interaction between
+users and computers in the sense that this interaction should become more
+user-friendly and better adapted to the needs of the users.

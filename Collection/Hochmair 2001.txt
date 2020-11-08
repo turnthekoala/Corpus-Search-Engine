@@ -1,0 +1,13 @@
+Abstract. In the physical world, decision making in common navigation
+strategies is based on a mental map which includes a mental representation of
+geometric features such as distances and directions between places. We propose
+that decision making in the web is also based on a mental map. Contrary to the
+physical world navigation, the mental map used for web navigation describes a
+part of the agent's epistemology of the world, hence consists of semantic
+relations between concepts and includes hardly any geometrical features. We
+focus on the navigation situation where the detailed web structure is unknown
+to the agent before the navigation, therefore the agent's decisions are completely
+based on his semantic mental map. We give a potential structure of the agent's
+mental map, simulated using WordNet, and simulate the agent's decision
+making process during the web navigation. The simulation of the strategies
+allows to assess existing web environments with regard to ease of navigability.

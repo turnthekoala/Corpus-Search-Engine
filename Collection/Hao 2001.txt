@@ -1,0 +1,74 @@
+Visualization of Directed Associations in E-Commerce
+Transaction Data
+Ming C. Hao, Umeshwar Dayal, Meichun Hsu, Thomas Sprenger*, Markus H. Gross*
+Hewlett Packard Research Laboratories, Palo Alto, CA.
+(ming_hao, dayal, mhsu)@hpl.hp.com
+Abstract
+Many real-world e-commerce applications require the mining of large volumes of transaction data to
+extract marketing and sales information. This paper describes the Directed Association Visualization
+(DAV) system that visually associates product affinities and relationships for large volumes of e-commerce
+transaction data. DAV maps transaction data items and their relationships to vertices, edges, and positions
+on a visual spherical surface. DAV encompasses several innovative techniques (1) items are positioned
+according to their associations to show the strength of their relationships; (2) edges with arrows are used to
+represent the implication directions; (3) a mass-spring engine is integrated into a visual data mining
+platform to provide a self-organized graph. We have applied this system successfully to market basket
+analysis and e-customer profiling Internet applications.
+Keywords: Visual Mining, Association, Support Confidence, Mass-Spring, Relationships
+1. INTRODUCTION
+Market basket analysis has become a key success factor in e-commerce. Effective market basket analysis
+methods employ association [1, 4] and clustering [6] as methods of analyzing such data. E-commerce
+transactions often are comprised of several products (items) that are purchased together. An example of an
+association is that 85% of the people who buy a printer also buy paper. Understanding these relationships
+across hundreds of product lines and among millions of transactions provides visibility and predictability
+into product affinity purchasing behavior.
+To date, there are many technologies that allow the visualization of associations for retail stores to make
+business decisions such as product recommendations, cross selling, and store shelf arrangements. As
+illustrated in Figure 1A, a common technique [7, 8], for visualizing associations is the matrix display. The
+matrix technique positions pairs of items on separate axes to visualize the strength of their relationships.
+The association visualizer from SGI MineSet [8] lays out the rules on a 3D grid landscape. Visual filtering
+and querying allow users to focus in on selected rules. However, to visualize millions of association rules,
+we have found that association matrixes are too restrictive. The number of rules shown at the same time
+needs to be pre-decided and can only be a small range of rules (10-20).
+An alternative to the association matrix, as illustrated in Figure 1B, is to lay out associations on a graph.
+For example, LikeMinds [11] uses an individual purchase history to make suggestions to shoppers based on
+a graph. However, when the number of items grows large, the graph can quickly become cluttered with
+many interactions. Also, associated items may not be placed close together. The market analysis graph
+from Insights’ Advizor [12] has achieved dramatic improvements by utilizing dynamic queries and
+presentations.
+Besides the use for data associations, graph visualization methods have been very popular in information
+visualization. For instance, cone trees [17] and their hyperbolic projections [18, 19] are prominent
+examples for web and file system visualization. Eric [15] used fast graph layout to display various types of
+statistical data. A central approach to graph visualization are physics-based paradigms being exploited in
+[2], [9], or [10]. Recently, clustering algorithms improved performance and scalability of physics-based
+methods [20, 21].
+2
+Figure 1A: A Matrix Technique Figure 1B: A Graph – Based Technique
+In spite of the advances in the field, it is still difficult to mine and visualize customer's purchasing behavior
+from millions of Internet transactions. As the volume of e-commerce data grows and as the transaction data
+is integrated into offline data, new data visualization associations are required to extract useful and relevant
+information.
+In this paper, we describe a system for visualizing associations of purchasing transactions for two and
+more items.
+2. OUR APPROACH
+At HP Laboratories, we have devised a “Directed Association Visualization (DAV)” 3D system. To meet
+the needs mentioned previously, we attempt to visualize the internal relationships and implications between
+large volumes of transaction data. DAV maps the transaction items and relationships to vertices and
+positions on a visual spherical surface. DAV uses weighted edges with arrows to represent association
+directions and levels. In addition, DAV employs dynamic aggregation and hierarchical link lists to enhance
+the scalability.
+DAV integrates a well-known physics-based “Mass Spring” visualization system [2,5,9,10,14] into a visual
+mining platform [3]. DAV uses a sphere layout to place the most tightly related item in the center and all
+others around. The most tightly related item is the item with the highest correlation with other item. With
+various association algorithms, DAV provides a self-organized graph. It consists of the following:
+1. The “distance” between each pair of items represents support.
+2. A “directed edge” represents the direction of the association. The color of the edge is used to represent
+the confidence level.
+3. A “cluster” is used to wrap around highly related items using an ellipsoidal surface.
+3. COMPOMENT ARCHITECTURE
+DAV is built on a Java-based client-server model. Its architecture contains four basic components -
+initialization, relaxation, direction, and clustering.
+Figure 2 illustrates the overall architecture of DAV. Each of the above components is described in the
+following sections.
+3.1 Directed Association Definition
+In order to better understand what follows, we start with a few definitions:
+An association rule is of the form X® Y where X

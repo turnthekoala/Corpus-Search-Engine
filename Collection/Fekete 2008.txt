@@ -1,0 +1,15 @@
+Abstract. Researchers and users of Information Visualization are convinced
+that it has value. This value can easily be communicated to others
+in a face-to-face setting, such that this value is experienced in practice.
+To convince broader audiences, and also, to understand the intrinsic
+qualities of visualization is more difficult, however. In this paper we consider
+information visualization from different points of view, and gather
+arguments to explain the value of our field.
+1 Problems and Challenges
+This paper provides a discussion of issues surrounding the value of Information
+Visualization (InfoVis). The very existence of the paper should alert the reader
+that challenges do exist in both recognizing and communicating the field’s value.
+After all, if the value would be clear and undisputed, there would be no need
+to write the paper! Unfortunately, the current situation is far from that. By its
+very focus and purpose, InfoVis is a discipline that makes the recognition of
+value extremely difficult, a point that will be expanded below.

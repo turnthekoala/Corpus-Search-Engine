@@ -1,0 +1,10 @@
+The growing use of information visualization tools and data mining algorithms
+stems from two separate lines of research. Information visualization researchers
+believe in the importance of giving users an overview and insight into the data
+distributions, while data mining researchers believe that statistical algorithms
+and machine learning can be relied on to find the interesting patterns. This
+paper discusses two issues that influence design of discovery tools: statistical
+algorithms vs visual data presentation, and hypothesis testing vs exploratory
+data analysis. The paper claims that a combined approach could lead to novel
+discovery tools that preserve user control, enable more effective exploration,
+and promote responsibility.

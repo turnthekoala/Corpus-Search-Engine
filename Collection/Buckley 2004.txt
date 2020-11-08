@@ -1,0 +1,14 @@
+Observations from a unique investigation of failure analysis of Information
+Retrieval (IR) research engines are presented. The Reliable
+Information Access (RIA) Workshop invited seven leading
+IR research groups to supply both their systems and their experts
+to an effort to analyze why their systems fail on some topics and
+whether the failures are due to system flaws, approach flaws, or the
+topic itself. There were surprising results from this cross-system
+failure analysis. One is that despite systems retrieving very different
+documents, the major cause of failure for any particular topic
+was almost always the same across all systems. Another is that
+relationships between aspects of a topic are not especially important
+for state-of-the-art systems; the systems are failing at a much
+more basic level where the top-retrieved documents are not reflecting
+some aspect at all.

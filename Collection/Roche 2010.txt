@@ -1,0 +1,75 @@
+A Comparison of Several Key Information Visualization Systems for
+Secondary Use of Electronic Health Record Content
+*Francisco S. Roque1, Laura Slaughter2,3, Alexandr Tkat?enko4,5
+1Center for Biological Sequence Analysis, The Technical University of Denmark,
+Lyngby, Denmark
+2The Interventional Center, Oslo University Hospital, Oslo, Norway
+3Department of Computer and Information Science, Norwegian University of Science and Technology
+(NTNU), Trondheim, Norway
+4Institute of Computer Science, University of Tartu, Tartu, Estonia
+5Software Technology and Applications Competence Center, Tartu, Estonia
+http://dsv.su.se/hexanord
+*All three authors contributed equally to this work.
+Abstract
+An overview is provided of six information
+visualization systems designed specifically for
+gaining an overview of electronic health records
+(EHR). The systems discussed all make
+use of timelines: Lifelines, Lifelines2,
+KNAVE II, CLEF Visual Navigator, Timeline,
+and AsbruView. With the exception of
+Lifelines2, the main user groups targeted are
+physicians involved in direct patient care. Little
+attention has been paid towards supporting
+true secondary use of EHR contents, for activities
+such as assessing quality of care, patient
+health and safety monitoring, and clinical
+trial recruitment. Future work on such systems
+needs to address the complexity of EHR data,
+missing and incomplete information, and difficulties
+in displaying data with differing levels
+of granularity.
+1 Introduction
+This paper provides an overview of several information
+visualization (infovis) systems that have
+been built for exploring abstracted information
+from Electronic Health Records (EHR). EHRs are
+systems that are used to document care of patients.
+The records can include a wide range of data and
+information, including medications prescribed and
+administered, immunization history, laboratory test
+results, allergies, radiology images, treatment
+plans, and care notes. Currently, most EHR systems
+implemented are proprietary and highly customized
+when used by larger care institutions.
+It is usually the case that only clinicians and other
+healthcare professionals with direct responsibility
+for providing care have access to patient data. The
+suggestion of secondary use of health data is not
+new and has been handled separately from the issue
+of creating user interfaces and visualizations.
+Safran et al. discuss the purpose of clinical data
+repositories in their white paper and point towards
+the goal of a national framework for the secondary
+use of health data in the U.S. (Safran et al., 2007).
+According to their definition, secondary use includes
+activities such as analysis, research, quality
+and safety measurement, public health, payment,
+provider certification and accreditation, marketing,
+and general business applications, while at the
+same time taking into account the ethical, political,
+technical and social implications of such re-use. De
+Lusignan and van Weel highlight the challenges of
+making use of clinical data for research, stating,
+"The available research methods for working with
+large data sets are limited; it is difficult to infer
+meaning from data; there is a rapid pace of change
+in both medicine and technology; and integrating
+data without reliable unique identifiers is difficult."
+(de Lusignan and van Weel, 2006). Prokosch and
+Ganslandt have recently summarized the latest advances
+in enabling clinical data re-use for research
+purposes (Prokosch and Ganslandt, 2009). They
+identify as key challenges the establishment of
+comprehensive clinical data repositories, the establishment
+of professional IT infrastructure to sup-

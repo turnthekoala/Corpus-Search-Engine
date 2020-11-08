@@ -1,0 +1,126 @@
+More with Less
+William Lidwell
+Consultant | will@deconstructingproductdesign.com
+interact ions November + December 2009
+73
+FEATURE
+red and white lines represent
+patriotism,” “The red and white
+lines represent a landscape,”
+”The red and white lines represents
+amber waves of grain,”
+“The blue circle represents sky,”
+“The center of the circle represents
+a sun rising,” “A sun rising
+represents change,” and so on.
+Based on this list of propositions
+alone, a rough estimate of
+PD for the logo is PD ˜ 10 / 3 ˜
+3.33, a very high propositional
+density. Additionally, the propositions
+are positive and complementary,
+creating a synergistic
+effect. The rendering is simple,
+but the meaning runs deep—a
+primary reason for the logo’s
+appeal and effectiveness.
+Propositional density explains
+the benefit of incorporating
+emergent elements like the
+arrow in the FedEx logotype
+and the sunrise in the Obama
+logo. Normally, the cost of additional
+propositions is additional
+elements, which of course
+means additional complexity.
+However, incorporating emergent
+elements and Gestalt-type
+effects enables a designer to
+add deep propositions without
+adding elements. In design, it is
+the closest thing to a free lunch
+as you can get.
+Let’s look at a product-design
+example, the Hug salt and
+pepper shakers. The surface
+propositions are: “One shaker
+is black,” “One shaker is white,”
+“The shakers are anthropomorphic,”
+and “The shakers
+appear to be hugging.” The deep
+propositions are: “The white
+shaker represents salt,” “The
+black shaker represents pepper,”
+“The shakers represent
+people of different races living
+in harmony,” “The shakers represent
+the idea that opposites
+its presence is a function of
+negative space created by the
+physical elements in the design,
+yet it expresses a number of
+propositions: “Federal Express
+is on the go,” “Federal Express
+is forward thinking,” “Federal
+Express has direction,” and so
+on. Note that these propositions,
+unlike surface propositions,
+are highly dependent on
+the meaning that the observer
+ascribes to the arrow. These
+are called “deep propositions,”
+because they describe underlying
+and often hidden meanings
+of elements.
+The propositional density of
+any design can be estimated
+by dividing the number of
+deep propositions by the number
+of surface propositions.
+Mathematically:
+PD ˜ Pd / Ps
+where:
+PD is propositional density,
+Pd is the number of deep propositions,
+and
+Ps is the number of surface
+propositions.
+Note that PD can be estimated
+only because the number
+of deep propositions is variable
+across observers.
+Objects and environments
+with high PD are more interesting
+and engaging than objects
+and environments with low PD.
+Simple objects and environments
+(i.e., few surface propositions)
+that are rich in meaning
+(many deep propositions) are
+perceived to be the most compelling,
+especially when the
+propositions are complementary.
+Though the specific thresholds
+have not yet been determined
+empirically, successful designs
+commonly have PD > 1, which is
+a good benchmark to consider
+when applying the principle.
+Consider, for example, the
+much heralded logo of Barack
+Obama’s 2008 presidential
+campaign. The logo expresses
+essentially three surface propositions:
+“The logo contains a
+blue circle,” “The logo contains
+red and white lines,” and “The
+red and white lines cut horizontally
+across the lower half of
+the circle.” The number of deep
+propositions expressed, by contrast,
+is quite large: “The circle
+represents an O for Obama,”
+“The circle represents unity,”
+“The circle represents stability,”
+“The red and white lines represent
+the American flag,” “The

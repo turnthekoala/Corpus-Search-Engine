@@ -1,0 +1,57 @@
+Integrating Statistics and
+Visualization for
+Exploratory Power:
+From Long-Term Case Studies to Design Guidelines
+Adam Perer and Ben Shneiderman ¦ University of Maryland
+Visual analytics (VA) is different from other
+fields of human-computer interaction because
+VA systems are designed to be exploratory:
+the set of tasks users want to perform
+might not be known. Evaluating such systems is
+problematic because controlled studies might not
+effectively represent analytical tasks. One such VA
+system, SocialAction, aims to improve exploratory
+data analysis of social networks.1–3 SocialAction
+integrates both statistics and visualizations to enable
+analysts to benefit from both types of analysis.
+Statistics help identify important individuals,
+relationships, and clusters throughout the network.
+Network visualizations integrate the statistical
+results, allowing analysts to dynamically
+rank and filter the network. Visualizations simplify
+the statistical results by highlighting patterns,
+gaps, and outliers. Statistics simplify the
+typically dense network visualizations, allowing
+analysts to focus on statistically significant nodes
+and edges.
+In order to understand whether SocialAction’s
+integrated approach helps analysts, we designed an
+evaluation methodology to evaluate SocialAction
+with case studies involving researchers who worked
+on their own data with their own problems. In this
+article, two case studies are presented that reveal
+that an integration of visualizations and statistics
+can lead to valuable insights during analysis. However,
+there are few information visualization tools
+that provide an integrated approach to data analysis
+(for more on this, see the “Why Combine Visualization
+and Statistics?” sidebar, next page). In order
+to promote such an integration, we reflect on data
+from our case studies and present specific guidelines
+for VA system designers.
+The Evaluation Methodology
+Our methodology is inspired by the goals of Multidimensional
+In-Depth Long-Term Case Studies
+(MILCs).4 Although many
+other methodologies for qualitative
+case studies exist, we believe
+this is the first long-term,
+structured, and replicated approach
+that takes into account
+the unique demands of information
+visualization users. (For
+more on evaluation techniques
+for information visualizations,
+see the related sidebar, page
+42.) Our methodology consists
+of the following five phases.2

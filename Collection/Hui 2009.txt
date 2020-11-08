@@ -1,0 +1,80 @@
+Multi-hierarchy Information Visualization Research
+Based on Three-Dimensional Display of Products System
+Zhou Hui and Hou WenJun
+Automation School of Beijing University of Posts and Telecommunications,
+Beijing 100876, China
+Abstract. Currently, the information on the Web is countless, which is
+throughout tens of thousands of Web sites all over the world. And the Web site
+intertwined with each other through hyperlinks between documents. Regardless
+of such a big scale of the Web information, it will continue expanding. How to
+access to the information on the Web easily has become a problem needed to be
+solved urgently. However, the way of accessing to the information is far from
+satisfactory. Information visualization will play an increasingly important role in
+helping people understand the structure of the information space, finding
+information needed quickly and preventing the lost in the information ocean
+effectively. The paper used the Multi-hierarchy information visualization on a
+specific e-commerce web site, and established a three-dimensional products
+display system. According to the analysis of users on business web site, the
+establishment of a representative user model was established. In accordance with
+the user model, system function was analyzed and integrated, and task analysis
+was hierarchical. Based on the user's demand, the paper confirmed the content
+and the way of the showing. Finally the paper designed the system according to
+the information structure, interaction and information visualization.
+Keywords: user experience, Information architecture, visualization, mapping,
+Fuzzy Comprehensive Evaluation Method.
+1 Introduction
+With the promoting of the information-based society and the more extensive of the
+network, information visualization has increasingly become to be the research focus
+in contemporary information management field. Cyberspace is becoming the main
+and foundational part of information systems. Information visualization creates a way
+to comprehend information space characteristics of the network from a new
+perspective. The core thought of visualization is that it introduces the reality of space
+form to the Internet. It made a breakthrough of the space concept which has only the
+characters, graphics, data and video in the original [1]. It made a new expression
+space though combining a real space and virtual network stack space to form. This
+expression reveals multi-dimensional characteristics of the information in cyberspace,
+and made the network information visualized.
+Information architecture emphasizes information organization and show, and then
+made the objective knowledge space to be ordered. In fact, people acquire, use or
+288 Z. Hui and H. WenJun
+sharing external behavior and internal cognitive of information which decides in a
+large extent whether information technology can play a role. So in the management of
+information we no longer confined to technical aspects, but pay attention to people,
+information and the interaction between people and information. Information
+architecture expands the relevance through the user experience, and then achieves the
+goal of Information architecture [2]. So it must consider the user experience, the
+relationship among information resources, information space and users, to provide a
+reasonable scientific resources space.
+We achieve the goal of non-spatial information to the user's transmission through
+interactive three-dimensional systems. It is in fact an effective process of information
+feedback loop. Non-spatial information transforms into graphics through information
+visualization system. Through the three-dimensional display system, we implement
+the compression of the information visualization system signs, which resulting an
+optimized, more effective way to expression information. In many cases, extraction of
+information is through interactive, perceptual and cognitive. Therefore, the main
+function of this system is to research and exploration. This is consistent with human
+cognitive behavior. Each person has his own style in exploration and cognitive.
+Three-dimensional display system provides it a great deal of flexibility [3].
+2 Information Architecture of the Display System
+For this article, Information architecture refers to the organization and classification
+to the system contents, and visualization implementation of the system interface.
+2.1 Goal and Content of Information Architecture
+First we should understand and to clarify the system's mission and objectives, and
+then meet the uses’ needs. We determine the system's content and functionality and
+illustrate how to determine the organizational system, navigation system, marking
+system in order to help users find the required information [4].
+Information Architecture in the Information Organization goals embodied in two
+aspects: First, from the view of the results, it is necessary to make the information
+clear and understandable; secondly, from the view of the user, make the information
+usefulness and availability and user having a good user experience.
+According to the uniqueness of information, from the view of information use and
+users understanding, we can attribute the content of information architecture to the
+following basic process: conceptual design, organization of information content, to
+generate information structure, the design of information interfaces, information
+navigation, and information display and information dissemination [5].
+2.2 Based on User Experience to Build Interactive Information
+We consider Information architecture model from the perspective of users and
+services. In user-oriented context, because of users often putting the system as a tool,
+using it to complete a particular information access and communicate mission, so
+Information architecture concerned about the main steps in complete their tasks as
+Multi-hierarchy Information Visualization Research Based on Three-Dimensional Display 289

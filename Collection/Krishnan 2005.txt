@@ -1,0 +1,49 @@
+TimeSpace: activity-based temporal visualisation
+of personal information spaces
+Received: 29 September 2003 / Accepted: 2 June 2004 / Published online: 27 August 2004
+ Springer-Verlag London Limited 2004
+Abstract Users’ personal information spaces are characterized
+by their content, organisation, and ongoing
+user interaction with them. They are fluid entities,
+evolving over time, and supporting multiple user activities
+that may require different perspectives of the same
+underlying information structure. Increasing storage
+capacity of computing devices and ready access to networked
+resources puts users at risk of information
+overload, and presents increasing challenges in organising
+and accessing their information. The hierarchical
+model of information organisation currently dominates
+personal computing, and is realised for the user in
+interfaces that help to manage and access filestore hierarchies.
+Such a model provides limited inherent support
+for what users do—carry out a range of interleaved
+activities over time. In this paper, we describe the
+TimeSpace system, which provides perspectives on a
+user’s information resources based on activities and
+temporal attributes of the information. TimeSpace can
+be used alongside, or in place of, existing systems and
+models (such as the Microsoft Windows hierarchical file
+model). User interaction with an information space is
+non-intrusively observed and then represented automatically
+in TimeSpace. Visualisations provide overviews
+of user activity on multiple projects and detailed
+views of activity within particular projects, allowing
+navigation forward and backward in time. An observational
+study of use of the system revealed positive user
+views of the utility of temporal, activity-oriented workspaces
+in real world contexts alongside existing tools.
+Participants appreciated being offered a different perspective
+on their electronic information collection, one
+that visually shows the composition and development of
+their information space. They were interested in using
+the system for current and long-term work as well as for
+archiving information, as the visualisations provide a
+context for their work and give an overview of all their
+work in progress. The ideas embodied by the system and
+its visualisations show promise and raise a number of
+issues for further exploration. In future work, these ideas
+will be adapted and extended to support users in managing
+their information spaces across multiple personal
+devices, locations and time.
+Keywords Information management Æ Personal
+information spaces Æ Visualisation

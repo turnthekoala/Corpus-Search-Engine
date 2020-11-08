@@ -1,0 +1,20 @@
+Purpose – To describe how information visualization can be used in the design of interface tools for
+large-scale repositories.
+Design/methodology/approach – One challenge for designers in the context of large-scale
+repositories is to create interface tools that help users find specific information of interest. In order to
+be most effective, these tools need to leverage the cognitive characteristics of the target users. At the
+Los Alamos National Laboratory, the authors’ target users are scientists and engineers who can be
+characterized as higher-order, analytical thinkers. In this paper, the authors describe a visualization
+tool they have created for making the authors’ large-scale digital object repositories more usable for
+them: SearchGraph, which facilitates data set analysis by displaying search results in the form of a
+two- or three-dimensional interactive scatter plot.
+Findings – Using SearchGraph, users can view a condensed, abstract visualization of search results.
+They can view the same dataset from multiple perspectives by manipulating several display, sort, and
+filter options. Doing so allows them to see different patterns in the dataset. For example, they can
+apply a logarithmic transformation in order to create more scatter in a dense cluster of data points or
+they can apply filters in order to focus on a specific subset of data points.
+Originality/value – SearchGraph is a creative solution to the problem of how to design interface
+tools for large-scale repositories. It is particularly appropriate for the authors’ target users, who
+are scientists and engineers. It extends the work of the first two authors on ActiveGraph, a read-write
+digital library visualization tool.
+Keywords Information, Visual media, Digital libraries

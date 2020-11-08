@@ -1,0 +1,11 @@
+Purpose – To provide a technical and practical analysis of the interactive floor plan developed by
+and for the law library at the Catholic University of Leuven, Belgium.
+Design/methodology/approach – The different steps in the development process are described,
+from original idea to conclusion.
+Findings – Though some steps in the process are described fairly technically and detailed, the paper
+is by no means a step-by-step guide to developing similar applications, it briefly touches the principles
+and concepts that make the application work.
+Originality/value – This paper describes the conception and development of a new type of library
+application. A truly interactive floor plan, unlike traditional static floor plans found on most web sites,
+was developed to create an actual virtual library. The concepts and techniques described in this paper
+could prove useful for other libraries wanting to create a similar application.

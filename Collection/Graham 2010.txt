@@ -1,0 +1,40 @@
+Abstract This article summarises the current state of research into multiple
+tree visualisations. It discusses the spectrum of current representation techniques
+used on single trees, pairs of trees and finally multiple trees, in order
+to identify which representations are best suited to particular tasks and to find
+gaps in the representation space, in which opportunities for future multiple
+tree visualisation research may exist. The application areas from where
+multiple tree data are derived are enumerated, and the distinct structures that
+multiple trees make in combination with each other and the effect on subsequent
+approaches to their visualisation are discussed, along with the basic
+high-level goals of existing multiple tree visualisations.
+Information Visualization (2010) 9, 235--252. doi:10.1057/ivs.2009.29;
+published online 5 November 2009
+Keywords: multiple trees; layout techniques; survey
+Introduction
+Tree visualisation has been one of the staples of Information Visualisation
+(IV) since its inception, inspiring myriad variations in terms of layout styles
+and interaction techniques. The bulk of this research has been performed
+on single tree instances, yet as more data are produced that requires users to
+navigate through multiple tree classifications or to understand the complex
+interaction of several tree structures, an increasing number of situations
+call for the analysis and comparison of multiple tree structures – tasks to
+which IV techniques can also be successfully applied.
+There have been attempts to categorise tree visualisation literature by
+criteria such as layout style, interaction technique and data type in previous
+survey papers. Again, however, most of them concern themselves with
+only the visualisation of single trees. Noik1 provides an early survey and
+classification system of graph presentation techniques, including trees,
+primarily focused on classifying by focusing and filtering attributes, and
+is too early for multiple tree visualisations to have registered in the literature.
+Later, Herman et al2 surveyed the graph visualisation literature from
+an IV perspective, grouping techniques by interaction and layout style
+rather than through the more formal algorithmic perspective favoured in
+traditional graph drawing domains. Their examples cover mostly restricted
+graphs including trees along with directed acyclic graphs (DAGs) and other
+graphs derived from general graphs. As with Noik, the survey does not
+include any examples of multiple tree visualisations due to the survey now
+being several years old. More recently, PhD and Masters’ theses regarding
+tree visualisation such as Nguyen3 and Nussbaumer4 include background
+chapters summarising the state-of-the-art at the time, but again cover only
+single tree visualisations.

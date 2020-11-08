@@ -1,0 +1,38 @@
+Abstract
+In this article, we describe a taxonomy of generic graph related tasks along with
+a computer-based evaluation designed to assess the readability of two
+representations of graphs: matrix-based representations and node-link diagrams.
+This evaluation encompasses seven generic tasks and leads to insightful
+recommendations for the representation of graphs according to their size and
+density. Typically, we show that when graphs are bigger than twenty vertices,
+the matrix-based visualization outperforms node-link diagrams on most tasks.
+Only path finding is consistently in favor of node-link diagrams throughout the
+evaluation.
+Information Visualization (2005) 4, 114–135. doi:10.1057/palgrave.ivs.9500092
+Keywords: Visualization of graphs; adjacency matrices; node-link representation; readability;
+evaluation
+Introduction
+Node-link diagrams have often been used to represent graphs. In the graph
+drawing community, many publications deal with layout techniques
+complying with aesthetic rules such as minimizing the number of edgecrossings,
+minimizing the ratio between the longest edge and the shortest
+edge, and revealing symmetries.1 Most works strive to optimize algorithms
+complying with such rules, but they rarely try and validate them from a
+cognitive point of view. Recently, Purchase et al.2 tackled this problem
+through on-paper and online experiments.3,4 These works involved small
+handcrafted graphs (graphs with 20 vertices and 20–30 edges), five
+aesthetic criteria and eight graph layout algorithms. The authors point
+out that while some aesthetic criteria taken separately may improve the
+perception of the graph at hand, it is difficult to claim that an algorithm
+brings about such an improvement. Moreover,Ware and Purchase5 set up a
+study aimed at the validation of some aesthetic properties put forth in the
+graph drawing community, such as the influence of good continuity on
+the perception of paths. In the Information Visualization (Infovis)
+community, many node-link variants have been experimented, both in
+2D and 3D.6,7 However, as soon as the size of the graph or the link density
+increases, all these techniques face occlusion problems due to links
+overlapping (Figure 1A). Thus, it becomes difficult for users to visually
+explore the graph or interact with its elements.
+Conversely, matrix-based visualizations of graphs eliminate altogether
+occlusion problems and provide an outstanding potential, despite their
+lack of familiarity to most users. In this paper, we present an evaluation

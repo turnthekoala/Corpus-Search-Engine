@@ -1,0 +1,7 @@
+This paper describes a novel methodfor the visualization
+of hierarchically structured information. The Tree-Map
+visualization technique makes 100% use of the available
+display space, mapping the full hierarchy onto a rectangular
+region in a space-filling manner. This efficient use of space
+allows very large hierarchies to be displayed in their entirety
+and facilitates the presentation of semantic information.
